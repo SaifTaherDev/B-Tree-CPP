@@ -21,7 +21,7 @@ private:
 public:
 	BTree(int _t);
 	BTree(int _t, int* vals, int n);
-	BTree(int _t, string snapshot_filename);
+	BTree(int _t, string snapshot_filename); // SAVE/RESTORE constructor
 
 	BTreeNode* search(int key, BTreeNode* u = nullptr) const;
 

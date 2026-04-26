@@ -17,7 +17,7 @@ BTree::BTree(int _t, int* vals, int n) : t(_t)
 		insert(*(vals + i));
 }
 
-BTree::BTree(int _t, string snapshot_filename) : t(_t) // RESTORE constructor
+BTree::BTree(int _t, string snapshot_filename) : t(_t) // SAVE/RESTORE constructor
 {
 	total_keys = 0;
 	total_splits = 0;
