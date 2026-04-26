@@ -1,3 +1,5 @@
+## NOTE: The logic for this implementation of B-Trees followed the CLRS design paradigm.
+
 # Answers to the conceptual questions in the assignment:
 
 ## Part 7: Edge Cases
