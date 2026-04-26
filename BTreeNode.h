@@ -1,14 +1,25 @@
 #pragma once
+
+#include <stdexcept>
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <sstream>
+
+using namespace std;
+
 class BTreeNode
 {
-public:
+private:
 	int* keys;
-	int t;
 	BTreeNode** children;
 	int n;
+	int t;
 	bool leaf;
-	BTreeNode(int _t, bool _leaf);
-	void insertNonFull(int k);
-	void splitChild(int i, BTreeNode* y);
+
+	friend class BTree;
+public:
+	BTreeNode(int t, bool leaf = true);
+	void fill_keys(int* keys, int n);
 };
 

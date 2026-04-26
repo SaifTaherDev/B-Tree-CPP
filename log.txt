@@ -1,0 +1,33 @@
+Inserting 10:
+Level 1: [ 10 ]
+
+total # of splits so far: 0
+
+Inserting 20:
+Level 1: [ 10 20 ]
+
+total # of splits so far: 0
+
+Inserting 5:
+Level 1: [ 5 10 20 ]
+
+total # of splits so far: 0
+
+Deleting 10:
+Level 1: [ 5 20 ]
+
+10 was deleted successfully.
+
+Searching for 20: found!
+
+Inserting 6:
+Level 1: [ 5 6 20 ]
+
+total # of splits so far: 0
+
+Inserting 12:
+Level 1: [ 6 ]
+Level 2: [ 5 ], [ 12 20 ]
+
+total # of splits so far: 1
+
